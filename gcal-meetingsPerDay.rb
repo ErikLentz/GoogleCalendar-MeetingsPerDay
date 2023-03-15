@@ -49,7 +49,7 @@ users.each do |user|
   puts "Processing events for #{user}..."
   # Open the file from the dir you saved the CSVs to
   # Replace dir below with your dir
-  datafile = File.open("/Users/elentz/bin/gam/cal_audit/user_cals/#{user}.csv")
+  datafile = File.open("/path/to/cache/user-calendars/#{user}.csv")
   # Parse the CSV into an array of hashes, where each row/hash is one event
   userdata = CSV.parse(File.read(datafile), headers: true, header_converters: :symbol).map(&:to_h)
   # Iterate over the events
