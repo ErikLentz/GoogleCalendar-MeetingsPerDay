@@ -1,5 +1,5 @@
 # GoogleCalendar-MeetingsPerDay
-Get an average of Calendar meetings per day of the week for your entire Google organization
+Get an average of Calendar meetings per day of the week for your entire Google Workspace organization
 
 ## Pre-requisites
 * A functional [GAMADV-XTD3](https://github.com/taers232c/GAMADV-XTD3/) setup
